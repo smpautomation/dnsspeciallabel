@@ -1,4 +1,4 @@
-<script type="text/javascript" setup>
+<script lang="js" setup>
 import { ref, onMounted, computed, watch, reactive } from 'vue';
 import { Head, useForm, usePage } from '@inertiajs/vue3';
 //import { router } from '@inertiajs/vue3'
