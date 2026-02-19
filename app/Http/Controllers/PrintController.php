@@ -68,8 +68,6 @@ class PrintController extends Controller
             return to_route('dns')->with('error', 'No model detected matching the FG Code provided: '. $validated['fgcode']);
        }
 
-       Log::iNFO('check', [$exists]);
-
         $data = [
             'model' => strtoupper($exists[0]['model_name']),
             'part_number' => strtoupper($exists[0]['part_number']),

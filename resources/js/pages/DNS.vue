@@ -24,6 +24,7 @@ const fgcodeInput = ref(null);
 const qtyInput = ref(null);
 const barcodeInput = ref(null);
 
+
 const showSuccess = ref(false);
 const showError = ref(false);
 const showReprintModal = ref(false);
